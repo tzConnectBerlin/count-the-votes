@@ -38,7 +38,7 @@ dic_votes = dict()
 for vote_dic in votes:
     addr = vote_dic['address']
     vote_option = vote_dic['value']
-    weight = dic_vote_weight[addr]
+    weight = dic_vote_weight.get(addr, 0)
     if vote_option in dic_votes.keys():
         dic_votes[vote_option] += weight
     else:
