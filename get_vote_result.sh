@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -v 
 set -e
 
 if [ $# -ne 1 ];
@@ -31,4 +32,4 @@ echo "Getting votes"
 
 echo "Counting votes"
 
-#./count_votes.py
+./count_votes.py
