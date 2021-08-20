@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -v 
 set -e
 
 if [ $# -ne 1 ];
