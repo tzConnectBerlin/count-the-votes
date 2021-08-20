@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 import json
 
 # get addr that are cxonnected to tzprofiles as a list
